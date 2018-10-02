@@ -45,4 +45,6 @@ I guess pretty much every option was tried, except for the literally stupid ones
 
 ## Conclusion  
 
-It seems that the GoDaddy settings were either wrong, or were not saved correctly or something was really broken on their end, because although the old settings were removed, several times (changing the A Names), and it took a complete <reset> to wipe some internal settings. Afterwards it worked fine. No issues, and GitHub never showed anymore errors again and also allowed for SSL Support, so no *up to* 24 hour waiting.
+It seems that the GoDaddy settings were either wrong, or were not saved correctly or something was really broken on their end, because although the old settings were removed, several times (changing the A Names), and it took a complete <reset> to wipe some internal settings. Afterwards it worked fine. No issues, and GitHub never showed anymore errors again and also allowed for SSL Support, so no *up to* 24 hour waiting.  
+
+So if you have any similar issues with domain names on GoDaddy, just try to set/unset redirect, or to <reset> settings if possible.
