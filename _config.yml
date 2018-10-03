@@ -21,10 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://neruell.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Neruell
 github_username:  Neruell
+google_analytics: UA-126818854-1
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
