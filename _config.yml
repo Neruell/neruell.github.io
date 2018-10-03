@@ -22,12 +22,18 @@ url: https://neruell.github.io # the base hostname & protocol for your site, e.g
 twitter_username: Neruell
 github_username:  Neruell
 google_analytics: UA-126818854-1
+youtube_username: Neruell
+twitter_username: Neruell
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+show_excerpts: true
+disqus:
+  shortname: https-neruell-github-io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

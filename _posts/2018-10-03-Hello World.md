@@ -19,10 +19,10 @@ Recently a friend wanted me to do some changes to the website, just *minor* thin
 
 Since some time, the webhost did change the pricing and billing options, and of course included some branding for a free plan. So after the changing files, they included the branding, a **no-go** for me. So went ahead to search for other webhosts. Unfortunately was not lucky to find anything which is  
 
--reliable  
--free  
--php support for `mail()`  
--no branding  
+- reliable  
+- free  
+- php support for `mail()`  
+- no branding  
 
 That's why searching for a static webpage hosting made more sense, rather than just to search for a webhost with multiple *unnecessary* options. Found some interesting and funny solutions, like hosting with **Dropbox**, or **GDrive** using an *old* Account. But **Github** also supported hosting, and since I was using it for storing the webpage anyway, so I decided to try it out, also since it allows for *custom domain*, and built-in *ssl support*. Nothing really hard to setup. *Surprisingly*, it was pretty painless and easy, nothing extraordinary.  
 
@@ -34,12 +34,12 @@ Well, not really exactly 24 hours, but almost. Went to the settings page, and I 
 
 Now this is **always** the time for every developer, where they waste tons of time for no reason. I tried almost everything  
 
--changing settings on GitHub  
--changing settting on GoDaddy  
--deleting the Repo, recreating it  
--changing A Names  
--changing Repo Name  
--...  
+- changing settings on GitHub  
+- changing settting on GoDaddy  
+- deleting the Repo, recreating it  
+- changing A Names  
+- changing Repo Name  
+- ...  
 
 I guess pretty much every option was tried, except for the literally stupid ones. So after **a lot of time** wasting on stuff, why not try those. Let's make a redirect on GoDaddy for the same webpage for an infinite loop. Said and done. Trying to open the page, of course results in an error, for *too many redirects*. Go back to GoDaddy to remove the setting for the Redirect. That results in a complete *wipe* of all your settings for that domain. Like a *Hard Reset*. Nothing to lose anyway, so said and done. Also had to reenable the **A Names**. Waited for the changes to take place. Went to GitHub, and **WHAT IS THAT**? Instant SSL Support, and no error anymore.  
 
